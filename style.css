@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    max-width: 100%;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    font-size: 1.6rem;
+    background-image: url("https://images.unsplash.com/photo-1536638317175-32449deccfc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    gap: 2rem;
+}
+
+
+.app{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: .5rem;
+    width: 30rem;
+    margin: 0 auto;
+    animation: mover 3s;
+    opacity: .9;
+}
+
+.titulo h1, p{
+    text-align: center;
+   margin: 1rem;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center
+}
+
+#logo{
+    width: 20rem;
+}
+
+
+
+form input{
+    width: 12rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: none;
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+
+
+form label:nth-child(1){
+    border-radius: 0rem  0rem 0rem 0rem;
+}
+
+form input:nth-child(2){
+    border-radius: 0rem 0rem 0rem 0rem ;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    
+}
+
+form label{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+form h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem 0rem 0rem;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    margin-top: 1rem;
+    border-radius: 2rem 0rem 2rem;
+}
+
+.inputFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    padding: 1.5rem;
+    width: 12rem ;
+    margin-right: 1rem;
+    background-color: #FF9C00;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #ff9d00;
+    color: black;
+}
+
+.buttonArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem ;
+    
+}
+
+.ativo{
+    background-color: rgb(53, 226, 41);
+    border-bottom: solid 1px rgb(53, 226, 41);
+    border-right: solid 1px rgb(53, 226, 41);
+    color: black;
+    font-weight: 700;
+}
+
+@keyframes mover{
+
+    0%{
+        opacity: 0;
+    }
+
+    
+
+  
+}
+
+@media (min-width:400px) {
+
+    .app{
+        width: 50rem;
+    }
+
+    
+}

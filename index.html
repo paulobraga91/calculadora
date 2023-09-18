@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Cerveja</title>
+</head>
+<body>
+    <div class="titulo app">
+        <img id="logo" src="cau.png" alt="">
+        
+    </div>
+    
+    <div class="app">
+    
+   
+
+    <form>
+       
+
+        <div class="input-wrapper">
+            <h2>1</h2>
+            <div class="inputFlex">
+            <label for="vasilhame1">Volume em ML</label>
+            <input type="number" id="vasilhame1" placeholder="100ml" required>
+        </div>
+            <div class="inputFlex">
+            <label class="labelValor1" for="valor1">Valor</label>
+            <input type="text" id="valor1" placeholder="R$ 2,00" required>
+            </div>
+        </div>
+        <div class="input-wrapper">
+            <h2>2</h2>
+            <div class="inputFlex">
+            <label for="vasilhame2">Volume em ML</label>
+            <input type="number" id="vasilhame2" placeholder="100ml" required>
+        </div>
+            <div class="inputFlex">
+            <label class="labelValor2" for="valor2">Valor</label>
+            <input type="text" id="valor2" placeholder="R$ 2,00" required>
+            </div>
+        </div>
+
+
+        <div class="input-wrapper">
+            <h2>3</h2>
+            <div class="inputFlex">
+             <label for="vasilhame3">Volume em ML</label>
+            <input type="number" id="vasilhame3" placeholder="100ml" >
+        </div>
+            <div class="inputFlex">
+            <label class="labelValor3" for="valor3">Valor</label>
+            <input type="text" id="valor3" placeholder="R$ 2,00" >
+            </div>
+        </div>
+
+
+        
+        <div class="buttonArea">
+            <button id="btnExecutarComparacao">Comparar</button>
+            <button id="btnLimpar">Limpar</button>
+        </div>
+    </form>
+
+    
+
+
+
+
+    </div>
+
+<script src="js.js"></script>
+</body>
+</html>
